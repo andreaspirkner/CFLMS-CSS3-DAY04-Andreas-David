@@ -1,0 +1,64 @@
+body {
+  font: 100%/1.4 Roboto, sans-serif;
+  padding: 0;
+  margin: 0; }
+
+.container {
+  width: 80%;
+  max-width: 1280px;
+  min-width: 780px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-flow: column; }
+
+.header {
+  background: #879296;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px 0 15px 0; }
+
+.nav {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 30%;
+  margin-top: 3%; }
+
+div[class="nav"] > a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #FFFFFF; }
+
+.content {
+  height: 460px;
+  color: #9f403d;
+  display: flex;
+  flex-flow: column;
+  background: url("img/Albert.jpg") 100%; }
+
+#conthead {
+  font-size: 60px;
+  margin-left: 10px;
+  /*background-color: rgba(255, 255, 255, 0.6) */ }
+
+#conttxt {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  width: 95%;
+  margin-top: 130px;
+  margin-bottom: 70px; }
+
+div[class="nav"] > a:hover {
+  font-size: 20px;
+  color: #000000; }
+
+.footer {
+  background-image: -webkit-linear-gradient(#af965b, #dfc887);
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  vertical-align: text-bottom; }
+
+/*# sourceMappingURL=bttfstyles.css.map */
